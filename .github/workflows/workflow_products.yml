@@ -31,7 +31,7 @@ jobs:
       run: |-
         python -m pip install --upgrade pip
         pip install -r code/requirements/requirements.txt
-        python code/create_master_json_and_skulist_txt.py
+        # python code/create_master_json_and_skulist_txt.py
       shell: bash
     - name: Commit and push if it changed
       run: |-
